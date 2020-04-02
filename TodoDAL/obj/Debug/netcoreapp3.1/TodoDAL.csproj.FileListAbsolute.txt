@@ -1,0 +1,9 @@
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\bin\Debug\netcoreapp3.1\TodoDAL.deps.json
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\bin\Debug\netcoreapp3.1\TodoDAL.dll
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\bin\Debug\netcoreapp3.1\TodoDAL.pdb
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\obj\Debug\netcoreapp3.1\TodoDAL.csprojAssemblyReference.cache
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\obj\Debug\netcoreapp3.1\TodoDAL.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\obj\Debug\netcoreapp3.1\TodoDAL.AssemblyInfoInputs.cache
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\obj\Debug\netcoreapp3.1\TodoDAL.AssemblyInfo.cs
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\obj\Debug\netcoreapp3.1\TodoDAL.dll
+\\Mac\Home\Downloads\Dev\Avalonia\Test\TestAvalonia\TodoDAL\obj\Debug\netcoreapp3.1\TodoDAL.pdb
