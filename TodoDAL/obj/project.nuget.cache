@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9t1Vg5+vnWQLDi2QnW063eppOkjLO129Hznkd3+kIJGBMprDTpIXNHgGyYx2UrvHWj4BBbIwJSHMSEQ/UD2SZQ==",
+  "dgSpecHash": "aDxfuu1C/+UrA8Ep/bx92+o6KA6X9naCfnH9sXhO5KGZM0FOOLFUkpiT5nOxHF41qTImXCMAjJSdxbnWFZgKQg==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Downloads\\Dev\\Avalonia\\Test\\AvaloniaTodo\\TodoDAL\\TodoDAL.csproj",
+  "projectFilePath": "\\\\Mac\\Home\\Downloads\\Dev\\Avalonia\\Dev\\AvaloniaTodo-github\\TodoDAL\\TodoDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CJH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
     "C:\\Users\\CJH\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",

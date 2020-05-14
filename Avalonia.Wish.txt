@@ -1,0 +1,43 @@
+非常感谢Avalonia团队的辛苦工作！很欣喜终于有一个靠谱的、跨平台的 UI 自绘框架库慢慢的成熟。
+但在使用过程中，感觉有几个核心问题我觉得需要重视，尽快转型，避免走弯路：
+
+（1）调整工程项目解决方案结构：不要想用一个项目完成多个平台的单一代码，每个平台总会有不同的特点，可类似 Xamarin 或 Cocos2dX 那样拆分为各平台的子项目(如 Todo.Android, Todo.iOS, Todo.Windows)，各平台的特殊功能可以考虑用Xamarin的类库或自己独立开发。各个项目可以直接编译成 exe，app，apk等各平台专有的可执行文件。Qt在移动平台开发上推广不畅快，很大原因也是因为这个，调试运行可以，但要达到部署发布，还有很大的工作量。
+
+（2）移动平台优先：现在做老的桌面程序UI库，说实话没什么意思，已经有类似 Gtk 的桌面控件库。重新制造一遍既累，也对开发者没有吸引力，现阶段默认提供的控件基本上都只用于桌面程序样式，太朴素了。反观 Flutter，它默认就提供了 iOS 和 android 两种控件样式，这很吸引开发者，开发人员应该把精力放在业务逻辑上，而不是去折腾各种控件。要想弯道超车的话，把桌面控件库先放下慢慢完善（可考虑慢慢参考bootstrap样式构建），并全新创建 Avalonia.MobileUI 控件库并优先开发，该库也优先实现 iOS 样式，且必须支持黑暗模式，以减少开发人员的基础工作量。
+
+（3）争取微软的支援，尽可能列入其跨平台开发计划中，加速开发进度。说实话Avalonia发布太慢了，Flutter已经发布到 1.12 版本了，基本可供商用了。
+
+竞争对手分析
+（1）Qt QML 移动开发一直流行不起来，主要原因我估计也是这两样：
+- 项目工程不合理。
+- 没有开箱即用的 iOS 控件库。
+
+（2）Flutter快速流行，主要原因也正是有效的实现了这两点：
+- 合理的项目工程
+- 开箱即用的两套控件样式库
+
+作为C#的热爱者，我爱Avalonia，我衷心希望它走得又快又远。
+
+
+
+
+
+Thank you very much for the hard work of Avalonia team! I'm glad to finally have a reliable and cross platform UI self-drawing framework library which is gradually mature. However, when I using avalonia, I feel that there are several core issues that I think need to pay attention to, and start to do as soon as possible to avoid detours:
+
+(1) Adjust the solution structure. Split the single code project to several platform-seperated projects(such as Todo.Windows, Todo.Mac, Todo.android, Todo.iOS), just liking xamarin or cocos2dx. Special functions of each platform can be considered to use xamarin's class library or develop independently. And, each project can be directly compiled into exe, app, APK and other platform specific executable files. This is also one reason for that Qt is not promoted smoothly in the development of mobile platform. You can debug and test Qt app,, but there is still a lot of work to achieve deployment and release to iOS and android.
+
+(2) Mobile first. Now we are making the old desktop program UI library. To be honest, it doesn't mean much. There is already a desktop control library similar to GTK. It's tiring and unattractive for developers to remake it again. At this stage, the controls provided by default are basically only used for desktop program style, which is too simple. In contrast, flutter provides two control styles of IOS and Android by default, which will attracts developers so much. Developers should focus on business logic instead of tossing over various controls. If you want to overtake in a corner, put down the desktop control library first and improve it slowly (consider building it by referring to the bootstrap style), and create a new *avalonia.mobileui* control library and give priority to the development. The library also gives priority to the implementation of IOS style, and must support the dark mode to reduce the basic workload of developers.
+
+(3) Strive for Microsoft's support and try to be included in its cross platform development plan to speed up the development progress. To be honest, Avalonia is too slow to release. Flutter has been released to version 1.12, which is basically available for commercial use.
+
+Competitor analysis
+(1) Qt QML mobile development has not been popular. I think the main reasons are the same:
+- The project works are unreasonable.
+- There is no out-of-box IOS control library.
+
+(2) The main reason for the rapid popularity of flutter is that it effectively realizes these two points:
+- Reasonable project structure.
+- Two out-of-box control style libraries 
+
+As a lover of C#, I love Avalonia, and I sincerely hope that it will go fast and far.
+

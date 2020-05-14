@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\Mac\\Home\\Downloads\\Dev\\Avalonia\\Test\\AvaloniaTodo\\TodoDAL\\TodoDAL.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Downloads\\Dev\\Avalonia\\Dev\\AvaloniaTodo-github\\TodoDAL\\TodoDAL.csproj",
       "projectName": "TodoDAL",
-      "projectPath": "\\\\Mac\\Home\\Downloads\\Dev\\Avalonia\\Test\\AvaloniaTodo\\TodoDAL\\TodoDAL.csproj",
+      "projectPath": "\\\\Mac\\Home\\Downloads\\Dev\\Avalonia\\Dev\\AvaloniaTodo-github\\TodoDAL\\TodoDAL.csproj",
       "packagesPath": "C:\\Users\\CJH\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Downloads\\Dev\\Avalonia\\Test\\AvaloniaTodo\\TodoDAL\\obj\\",
+      "outputPath": "\\\\Mac\\Home\\Downloads\\Dev\\Avalonia\\Dev\\AvaloniaTodo-github\\TodoDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

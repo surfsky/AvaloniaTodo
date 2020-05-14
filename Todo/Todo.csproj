@@ -15,23 +15,29 @@
   </ItemGroup>
   <ItemGroup>
     <AvaloniaResource Remove="TodoListView.xaml" />
+    <AvaloniaResource Remove="Views\AddItemView.xaml" />
     <AvaloniaResource Remove="Views\Buttons.xaml" />
     <AvaloniaResource Remove="Views\TodoListView.xaml" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="TodoListView.xaml" />
+    <None Remove="Views\AddItemView.xaml" />
     <None Remove="Views\Buttons.xaml" />
     <None Remove="Views\TodoListView.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.0" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.0" />
+    <PackageReference Include="Avalonia" Version="0.9.10" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.10" />
+    <PackageReference Include="MessageBox.Avalonia" Version="0.9.6.1" />
     <PackageReference Include="NSubsys" Version="1.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Views\AddItemView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\TodoListView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -43,5 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TodoDAL\TodoDAL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\AddItemView.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

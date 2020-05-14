@@ -5,7 +5,7 @@
              mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="400"
              x:Class="Todo.Views.TodoListView">
   <DockPanel>
-    <Button DockPanel.Dock="Bottom">Add an item</Button>
+    <Button DockPanel.Dock="Bottom" Click="AddButton_Click" >Add an item</Button>
     <StackPanel>
       <CheckBox Margin="4">Walk the dog</CheckBox>
       <CheckBox Margin="4">Buy some milk</CheckBox>
